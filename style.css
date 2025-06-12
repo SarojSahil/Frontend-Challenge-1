@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "Inter";
+  src: url("./Inter-VariableFont_opsz\,wght.ttf");
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Inter";
+}
+
+.header {
+  padding: 4rem 2rem;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 2.25rem;
+  margin-bottom: 1rem;
+}
+
+.main {
+  background: #fcfcfc;
+}
+
+.main .container {
+  margin: 0 auto;
+  max-width: 640px;
+  padding: 3rem 2rem;
+}
+
+.main .container .faq h2 {
+  padding: 1rem 0rem;
+}
+
+.main .container .faq p {
+  padding: 1rem 0rem;
+}
+
+.main .container .faq ul,
+.main .container .faq ol {
+  padding: 1.5rem;
+}
+
+.main .container .faq li {
+  line-height: 2rem;
+}
+
+.main .container .faq li span {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(63, 140, 255);
+}
+
+hr {
+  margin: 1rem 0rem;
+  background-color: blueviolet;
+}
